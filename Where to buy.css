@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color:rgba(249,230,221,1.00);
+	
+}
+
+.header {
+  padding: 40px;
+  
+  background-image:url("Images/Header.png");
+	background-repeat: no-repeat;
+  color: white;
+	
+	
+}
+.subhead {
+	text-align: right;
+	font-size: 100px;
+	font-family:  "Helvetica Neue";
+	padding: 100px;
+	float: right;
+	
+	
+}
+h3{
+	text-align: center;
+	font-family: Baskerville;
+	font-size: 800%;
+	color: black;
+}
+
+table, th, td {
+	border: 3px rgba(0,0,0,1.00);
+ color: rgba(8,8,8,1.00);
+	align-content: center;
+	 width: 50%;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 150%;
+		text-align:center;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+	border-collapse: collapse;
+	background-color: antiquewhite;
+	justify-content: center;
+}
+
+	th, td {
+  padding: 30px;
+  text-align:center;
+}
+td{text-align: center;
+}
+th {
+  height: 70px;
+	text-align: center;
+	
+}
+nav{
+	text-align: center;
+display: inline-block;
+		padding: 5px;
+		line-height: 2em;
+		font-family:Baskerville;
+		font-style: bold;
+		font-size: 70px;
+		width: 100%;
+	
+}
+
+nav a:link, a:visited {
+	color: black;
+	text-decoration: none;
+	font-size: 120%;
+	font-weight: 400;
+	padding: 10px 50px;
+}
+nav a:hover {
+	color: hotpink;
+	text-decoration: none;
+	font-size: 120%;
+	font-weight: 400;}
+.Footercontainer {
+	background-color:rgba(242,132,11,1.00);
+	text-align: center;
+	padding: 100px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 200%;
+}
+
+html, body {
+	overflow-x: hidden;}
